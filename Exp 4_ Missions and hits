@@ -1,0 +1,13 @@
+m=float(input("No.of misses:"))
+h=float(input("No.of hits:"))
+print("Ratio of no.of hits=",h/(h+m))
+OUTPUT:-
+== RESTART: C:/Users/balch/AppData/Local/Programs/Python/Python311/misses and hits.py ==
+No.of misses:5
+No.of hits:10
+Ratio of no.of hits= 0.6666666666666666
+
+== RESTART: C:/Users/balch/AppData/Local/Programs/Python/Python311/misses and hits.py ==
+No.of misses:10
+No.of hits:5
+Ratio of no.of hits= 0.3333333333333333
