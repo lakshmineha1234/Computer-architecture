@@ -1,0 +1,22 @@
+a=int(input("Enter number1:"))
+b=int(input("Enter number2:"))
+c=4
+rand=a&b
+ror=a/b
+rnand=~rand
+print("The cycle value is",c)
+ins=int(input("Enter no.of instructions:"))
+print("The Performance Measure:",ins/c)
+print("result and=",rand)
+print("result or=",ror)
+print("result nand=",rnand)
+OUTPUT:-
+==== RESTART: C:/Users/balch/AppData/Local/Programs/Python/Python311/AND,OR,NAND.py ====
+Enter number1:3
+Enter number2:4
+The cycle value is 4
+Enter no.of instructions:3
+The Performance Measure: 0.75
+result and= 0
+result or= 0.75
+result nand= -1
