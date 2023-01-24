@@ -1,0 +1,51 @@
+a=int(input("Enter number1:"))
+b=int(input("Enter number2:"))
+c=3
+f=0
+ch=int(input("1.Add,2.Sub,3.mul,4.Div:"))
+if ch==1:
+    print("Performing addition operation")
+    res=a+b
+elif ch==2:
+    print("Performing subtraction operation")
+    res=a-b
+elif ch==3:
+    print("Performing multiplication operation")
+    res=a*b
+elif ch==4:
+    print("Performing division operation")
+    res=a/b
+    if b==0:
+        print("Denominator can't be zero")
+        print("Wrong input")
+        f=1
+    else:
+        res=a/b
+else:
+    print("Wrong input")
+    f=1
+if f==0:
+    print("The cycle value is",c)
+    ins=int(input("Enter no.of instructions:"))
+    print("The Performance Measure:",ins/c)
+    print("res=",res)
+OUTPUT:-
+=== RESTART: C:/Users/balch/AppData/Local/Programs/Python/Python311/multiplication.py ==
+Enter number1:6
+Enter number2:5
+1.Add,2.Sub,3.mul,4.Div:3
+Performing multiplication operation
+The cycle value is 3
+Enter no.of instructions:3
+The Performance Measure: 1.0
+res= 30
+
+=== RESTART: C:/Users/balch/AppData/Local/Programs/Python/Python311/multiplication.py ==
+Enter number1:30
+Enter number2:6
+1.Add,2.Sub,3.mul,4.Div:4
+Performing division operation
+The cycle value is 3
+Enter no.of instructions:2
+The Performance Measure: 0.6666666666666666
+res= 5.0
