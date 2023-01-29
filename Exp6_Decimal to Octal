@@ -1,0 +1,8 @@
+n=int(input("Enter Decimal number:"))
+sum=()
+while n>0:
+    r=n%8
+    n=n/8
+    sum=sum+(r*m)
+    m=m*10
+    print("Sum=",sum)
