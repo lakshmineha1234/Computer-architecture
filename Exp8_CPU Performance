@@ -1,0 +1,8 @@
+p=int(input("Enter no.of processor:"))
+ct=[]
+for i in range(o,p):
+    cpi=float(input("Enter the cycles per instruction:"))
+    cr=float(input("Enter the clock rate n GHZ:"))
+    a=1000*cpi/cr
+    ct.append(a)
+    print("The processor has lower Execution time:",min(ct))
